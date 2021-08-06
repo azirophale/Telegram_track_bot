@@ -6,18 +6,18 @@ api_id = "<Api_id>"
 api_hash = '<Your API hash>'
 
 
-def notify_member(user,message): 
-# def notify_member():  
-    user_id="489077052"
-    message_2="we are just testing this bot "
+def notify_member(user_id,message): 
+
+   
+    
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
     try :
-        # client.send_message(user_id, message_2)
+        # client.send_message(user_id, message)
         client.send_message(user,message)
         #client.send_file('username', '/home/myself/Pictures/holidays.jpg') #to send jpg files
         return ("message sent to ",user)
     except:
         print("Error accured")
     
-# notify_member()
+
