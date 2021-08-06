@@ -2,8 +2,8 @@ from telethon import TelegramClient, events, sync
 
 # These example values won't work. You must get your own api_id and
 # api_hash from https://my.telegram.org, under API Development.
-api_id = 3868944
-api_hash = 'c4be4bcfa07a908c8d70d8c94cfcd341'
+api_id = "<Api_id>"
+api_hash = '<Your API hash>'
 
 
 def notify_member(user,message): 
