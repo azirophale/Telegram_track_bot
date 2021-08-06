@@ -9,8 +9,8 @@ current_euro=c.get_rate('USD','EUR')
 current_yen=c.get_rate('USD','JPY')
 
 
-api_key = "LP87spAIaElsHx8WKfCa2bTb4IZPfWtKRQNIkRWsUDnMKkJA0Cd0nHvahkd6SByk"
-api_secreat = "N7SN9lVLiO01DFtZMBnzCC3H0uCVnem7ymaw9IXraWgv71oNByo15DgLyS4pHMhk"
+api_key = "<binance api key>"
+api_secreat = "<Binance api secreat>"
 
 # # client = Client(api_key, api_secreat ,tld='us')
 
