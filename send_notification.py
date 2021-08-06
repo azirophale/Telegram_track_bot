@@ -13,8 +13,6 @@ def notify_member(user,message):
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
     try :
-        # client.send_message('@Bruno_from_mars', 'Missing you')
-        # client.send_message('@sanket_mahskar', 'This is test parice')
         # client.send_message(user_id, message_2)
         client.send_message(user,message)
         #client.send_file('username', '/home/myself/Pictures/holidays.jpg') #to send jpg files
